@@ -44,3 +44,4 @@ amount_non_isolated = amount_total-amount_isolated
 
 print(f"{amount_isolated} {isolated_name} vs. {amount_non_isolated} non-{isolated_name}")
 print(f"1 {isolated_name} = {amount_non_isolated/amount_isolated} non-{isolated_name}")
+print(f"{round((amount_isolated/amount_total)*100)}% {isolated_name}, {round((amount_non_isolated/amount_total)*100)}% non-{isolated_name}")
